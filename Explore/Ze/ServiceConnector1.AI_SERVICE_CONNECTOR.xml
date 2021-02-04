@@ -1,0 +1,58 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>kcmgaabclvAhrsw-gt-1591674-2021-02-04T16:56:38.174Z::svc.xml</types1:EntryId>
+      <types1:Name>ServiceConnector1</types1:Name>
+      <types1:MimeType>application/xml+businesssconnector</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>sc_test@sum.in</types1:CreatedBy>
+      <types1:CreationDate>2021-02-04T16:56:38Z</types1:CreationDate>
+      <types1:ModifiedBy/>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>sc_test@sum.in</types1:PublishedBy>
+      <types1:PublicationDate>2021-02-04T16:56:41Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/rt.connector/ServiceConnector1/ServiceConnector1_svcDef.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <businessConnector xmlns="http://schemas.informatica.com/socrates/data-services/2014/05/business-connector-model.xsd"
+                            agentOnly="false"
+                            debug="false"
+                            displayName="ServiceConnector1"
+                            label=""
+                            name="ServiceConnector1"
+                            uuid="4b555f41-e5bd-4604-87ab-1850f3a725bc">
+            <description/>
+            <tags/>
+            <connectionAttributes xmlns="http://schemas.informatica.com/appmodules/screenflow/2014/04/avosConnectors.xsd"/>
+            <actions>
+               <action category=""
+                       failOnError="true"
+                       forSearch="false"
+                       label="UntitledAction"
+                       maxRedirects="100"
+                       name="UntitledAction"
+                       preemptiveAuth="true"
+                       responseEncoding="">
+                  <description/>
+                  <input/>
+                  <binding>
+                     <restSimpleBinding multiUsing="semicolonSeparated"
+                                        url="https://docs.informatica.com/integration-cloud/cloud-data-integration/current-version/function-reference/preface.html"
+                                        verb="GET"/>
+                  </binding>
+                  <output/>
+               </action>
+            </actions>
+            <objects/>
+         </businessConnector>
+      </types1:Entry>
+      <types1:GUID>3nS4ZDkq20ibuIFECKfBgE</types1:GUID>
+      <types1:DisplayName>ServiceConnector1</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2021-02-04T16:56:55.327Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
